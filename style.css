@@ -1,0 +1,97 @@
+body {
+    background-color: #0050A0;
+    color: white;     
+    text-align: center;       
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2rem;
+}
+
+header, footer{
+    background-color:#003366;    
+    padding: 1px;
+    color:white;
+    text-align: center;
+    margin: 0;
+}
+
+nav{
+    color:grey
+}
+
+a{
+    color: #F08040;
+    text-decoration: none;
+}
+
+.table-info {
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #003366;
+    padding: 10px;
+}
+
+nav ul {
+    background-color: #003366;
+    color: gray;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: gray;
+    padding: 0;
+    margin: 0;
+}
+
+.headlines {color: #F08040;}
+
+.info_box {
+    border: 2px solid #F08040;
+    padding: 10px;
+    margin: 15px auto;
+    width: 40%;
+    background-color: #003366;
+    border-radius: 10px;
+}
+#hardware_specs {
+    text-align: left;
+    display: inline-block;
+}
+
+.game-pics-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.game-pic-item{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    min-height: 300px;
+}
+.sidebar{
+    background-color: #003366;
+    flex-basis: 200px;
+    padding: 20px;    
+}
+.content{
+    background-color: #001f3f;
+    flex: 3;
+    padding: 20px;    
+}
+
+.sidebar-link{
+    color: #F08040;
+    text-decoration: none;
+}
